@@ -1,0 +1,94 @@
+<div class="home-container container position-relative">
+  
+  <h1 class="text-center my-4 text-black heading-style kanit-regular">Welcome to the Blogging Website</h1>
+
+  
+  <div class="intro-image mb-5">
+    <img src="https://img.freepik.com/free-photo/online-blog_53876-123696.jpg" alt="Blogging Image" class="img-fluid" />
+  </div>
+
+  
+  <div class="search-bar mb-4">
+    <input
+      type="text"
+      class="form-control"
+      placeholder="Search Blogs..."
+      [(ngModel)]="searchQuery"
+      (input)="searchBlogs()"
+    />
+  </div>
+
+  
+  <section class="featured-posts">
+    <h2 class="mb-4 text-black">Featured Posts</h2>
+    <div class="row">
+      <div class="col-md-3 mb-4" *ngFor="let post of featuredPosts">
+        <div class="card h-100 post-card">
+          <img [src]="post.image" alt="Post Image" class="card-img-top" />
+          <div class="card-body text-center">
+            <h5 class="card-title">{{ post.title | capitalize }}</h5>
+            <p class="card-text">by {{ post.author }}</p>
+            <p class="card-text">{{ post.content | sliceContent:100 }}</p>
+
+            
+            <button
+              class="btn btn-primary btn-sm like-btn"
+              [ngClass]="{'btn-secondary': userReactions[post.id] === 'like'}"
+              (click)="handleReaction(post, 'like')"
+            >
+              👍 Like ({{ post.likes }})
+            </button>
+            <button
+              class="btn btn-danger btn-sm unlike-btn"
+              [ngClass]="{'btn-secondary': userReactions[post.id] === 'unlike'}"
+              (click)="handleReaction(post, 'unlike')"
+            >
+              👎 Unlike
+            </button>
+
+            <a [routerLink]="['/blog', post.id]" class="btn btn-link btn-sm mt-2">
+              Read More
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+  <section class="latest-posts">
+    <h2 class="mb-4 text-black">Latest Posts</h2>
+    <div class="row">
+      <div class="col-md-3 mb-4" *ngFor="let post of latestPosts">
+        <div class="card h-100 post-card">
+          <img [src]="post.image" alt="Post Image" class="card-img-top" />
+          <div class="card-body text-center">
+            <h5 class="card-title">{{ post.title }}</h5>
+            <p class="card-text">by {{ post.author }}</p>
+            <p class="card-text">{{ post.content | sliceContent:100 }}</p>
+
+            
+            <button
+              class="btn btn-primary btn-sm like-btn"
+              [ngClass]="{'btn-secondary': userReactions[post.id] === 'like'}"
+              (click)="handleReaction(post, 'like')"
+            >
+              👍 Like ({{ post.likes }})
+            </button>
+            <button
+              class="btn btn-danger btn-sm unlike-btn"
+              [ngClass]="{'btn-secondary': userReactions[post.id] === 'unlike'}"
+              (click)="handleReaction(post, 'unlike')"
+            >
+              👎 Unlike
+            </button>
+
+            <a [routerLink]="['/blog', post.id]" class="btn btn-link btn-sm mt-2">
+              Read More
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>

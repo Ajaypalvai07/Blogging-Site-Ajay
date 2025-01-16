@@ -1,0 +1,101 @@
+// Variables for reusable colors and fonts
+$primary-color: #007bff;
+$secondary-color: #6c757d;
+$white: #fff;
+$dark: #343a40;
+$card-bg: #f8f9fa;
+
+// Global Styles
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f7fc;
+  color: $dark;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin-top: 20px;
+  padding: 20px;
+  max-width: 1200px;
+}
+
+h1, h2, h3, h4, h5 {
+  font-weight: 600;
+  color: $dark;
+}
+
+// Navbar Styles
+app-navbar {
+  margin-bottom: 20px;
+}
+
+// Card Styles
+.card {
+  background-color: $card-bg;
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+  &:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+  }
+
+  .card-body {
+    padding: 30px;
+  }
+
+  .card-title {
+    font-size: 1.5rem;
+    color: $dark;
+  }
+
+  .card-text {
+    font-size: 1.1rem;
+    color: $secondary-color;
+  }
+}
+
+// Button Styles
+.btn-primary {
+  background-color: $primary-color;
+  border: none;
+  padding: 12px 20px;
+  font-size: 1.1rem;
+  border-radius: 5px;
+  text-align: center;
+  display: inline-block;
+  text-decoration: none;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+
+  &:hover {
+    background-color: darken($primary-color, 10%);
+    transform: scale(1.05);
+  }
+}
+
+// Router Link Styles
+a.router-link-active {
+  color: $primary-color;
+}
+
+a.router-link-active:hover {
+  color: darken($primary-color, 10%);
+}
+
+// Responsive Design for Smaller Screens
+@media (max-width: 768px) {
+  .container {
+    padding: 15px;
+  }
+
+  .card {
+    margin-top: 10px;
+  }
+
+  .card-body {
+    padding: 20px;
+  }
+}

@@ -1,0 +1,51 @@
+.navbar {
+  transition: all 0.3s ease-in-out;
+  position: sticky; /* Makes the navbar stick at the top */
+  top: 0; /* Positions the navbar at the top of the page */
+  z-index: 1000; /* Ensures the navbar stays on top of other content */
+  background-color: #007bff !important; /* Blue color for the navbar, ensure it overrides any other color */
+}
+
+.navbar:hover {
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.nav-link {
+  position: relative;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  transition: all 0.3s ease-in-out;
+  color: #ffffff !important; /* Ensure the links are white */
+}
+
+.nav-link:hover {
+  color: #ffcc00 !important; /* Yellow color on hover */
+  transform: scale(1.1);
+}
+
+.nav-link::after {
+  content: '';
+  position: absolute;
+  bottom: -5px;
+  left: 50%;
+  width: 0;
+  height: 2px;
+  background-color: #ffcc00; /* Yellow underline */
+  transition: all 0.3s ease-in-out;
+}
+
+.nav-link:hover::after {
+  width: 100%;
+  left: 0;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+  transition: color 0.3s ease-in-out;
+  color: #ffffff !important; /* Ensure brand color is white */
+}
+
+.navbar-brand:hover {
+  color: #ffcc00; /* Yellow on hover */
+}

@@ -1,0 +1,192 @@
+/* Home Page Styles */
+.home-container {
+    position: relative;
+    color: #fff;
+    width: 100%; /* Ensure the container takes up full width */
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #fff; /* Fallback color */
+    font-family: "Kanit", sans-serif;
+    font-weight: 400; /* Set to regular weight (kanit-regular) */
+    background: linear-gradient(135deg, #ff6f61, #ffbc42); /* Gradient color */
+    color: transparent; /* Make text transparent to show gradient */
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5); /* Add shadow for better readability */
+    padding: 20px;
+    border-radius: 5px; /* Optional: Rounded corners for visual effect */
+    width: 100%; /* Full width */
+    box-sizing: border-box; /* Ensure padding is included in width calculation */
+    margin-left: 0;
+    margin-right: 0;
+  }
+  
+  /* Image Section */
+  .intro-image {
+    width: 100%; /* Ensure the image section takes up full width */
+    margin-bottom: 30px;
+    img {
+      width: 100%; /* Make image take full width */
+      height: 300px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+  }
+  
+  /* Search Bar Styles */
+  .search-bar {
+    margin-bottom: 30px;
+    .form-control {
+      padding: 1rem;
+      font-size: 1.2rem;
+      border-radius: 5px;
+      width: 100%; /* Full width */
+    }
+  }
+  
+  /* Featured Posts Section */
+  .featured-posts {
+    margin-bottom: 50px;
+    h2 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+    }
+  
+    .post-card {
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+      overflow: hidden;
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+  
+    .post-card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    }
+  
+    .card-img-top {
+      object-fit: cover;
+      height: 200px;
+      transition: transform 0.3s;
+    }
+  
+    .post-card:hover .card-img-top {
+      transform: scale(1.1);
+    }
+  
+    .card-body {
+      padding: 1.5rem;
+    }
+  
+    .btn {
+      margin-right: 10px;
+      margin-top: 10px;
+    }
+  }
+  
+  /* Latest Posts Section */
+  .latest-posts {
+    margin-bottom: 50px;
+    h2 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+    }
+  
+    .post-card {
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+      overflow: hidden;
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+  
+    .post-card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    }
+  
+    .card-img-top {
+      object-fit: cover;
+      height: 200px;
+      transition: transform 0.3s;
+    }
+  
+    .post-card:hover .card-img-top {
+      transform: scale(1.1);
+    }
+  
+    .card-body {
+      padding: 1.5rem;
+    }
+  
+    .btn {
+      margin-right: 10px;
+      margin-top: 10px;
+    }
+  }
+  
+  /* Footer Styles */
+  app-footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 1024px) {
+    .row {
+      display: flex;
+      flex-wrap: wrap;
+    }
+  
+    .col-md-3 {
+      flex: 0 0 50%;
+      max-width: 50%;
+    }
+  
+    .post-card {
+      margin-bottom: 20px;
+    }
+  
+    .search-bar input {
+      font-size: 1rem;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .row {
+      display: flex;
+      flex-wrap: wrap;
+    }
+  
+    .col-md-3 {
+      flex: 0 0 100%;
+      max-width: 100%;
+    }
+  
+    .post-card {
+      margin-bottom: 20px;
+    }
+  
+    .search-bar input {
+      font-size: 1rem;
+    }
+  }
+  
+  /* Heading Styling */
+  .heading-style {
+    font-size: 3rem; /* Adjust the font size */
+    font-weight: bold;
+    background: linear-gradient(135deg, #ff6f61, #ffbc42); /* Gradient color */
+    color: transparent; /* Make text transparent to show gradient */
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5); /* Add shadow for better readability */
+    padding: 20px;
+    border-radius: 20px; /* Optional: Rounded corners for visual effect */
+    width: 100%; /* Full width */
+    box-sizing: border-box;
+    margin-left: 0;
+    margin-right: 3px;
+  }

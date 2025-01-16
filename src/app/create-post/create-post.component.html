@@ -1,0 +1,56 @@
+<div class="create-post-container">
+    <h1>Create New Blog Post</h1>
+    
+    
+    <div class="image-upload">
+      <label for="image">Image:</label>
+      <input
+        type="text"
+        id="image"
+        [(ngModel)]="newPost.image"
+        name="image"
+        placeholder="Enter Image URL"
+        required
+      />
+      <div *ngIf="newPost.image">
+        <img [src]="newPost.image" alt="Selected Image" width="100" />
+      </div>
+    </div>
+  
+    
+    <form (ngSubmit)="createPost()">
+      
+      <label for="title">Title:</label>
+      <input
+        type="text"
+        id="title"
+        [(ngModel)]="newPost.title"
+        name="title"
+        required
+      />
+      
+      
+      <label for="content">Content:</label>
+      <textarea
+        id="content"
+        [(ngModel)]="newPost.content"
+        name="content"
+        required
+      ></textarea>
+      
+      
+      <label for="featured">
+        Featured:
+        <input
+          type="checkbox"
+          id="featured"
+          [(ngModel)]="newPost.featured"
+          name="featured"
+        />
+      </label>
+      
+      
+      <button type="submit">Create Post</button>
+    </form>
+  </div>
+  

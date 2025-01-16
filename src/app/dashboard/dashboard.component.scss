@@ -1,0 +1,107 @@
+/* Home Page Styles */
+.home-container {
+    position: relative;
+    color: #fff;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .intro-image {
+    margin-bottom: 30px;
+    img {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+  }
+  
+  /* Search Bar Styles */
+  .search-bar {
+    margin-bottom: 30px;
+    .form-control {
+      padding: 1rem;
+      font-size: 1.2rem;
+      border-radius: 5px;
+    }
+  }
+  
+  /* Featured Posts Section */
+  .featured-posts {
+    margin-bottom: 50px;
+    h2 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+    }
+  
+    .post-card {
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+      overflow: hidden;
+    }
+  
+    .card-img-top {
+      object-fit: cover;
+      height: 200px;
+    }
+  
+    .card-body {
+      padding: 1.5rem;
+    }
+  
+    .btn {
+      margin-right: 10px;
+      margin-top: 10px;
+    }
+  }
+  
+  /* Latest Posts Section */
+  .latest-posts {
+    margin-bottom: 50px;
+    h2 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+    }
+  
+    .post-card {
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+      overflow: hidden;
+    }
+  
+    .card-img-top {
+      object-fit: cover;
+      height: 200px;
+    }
+  
+    .card-body {
+      padding: 1.5rem;
+    }
+  
+    .btn {
+      margin-right: 10px;
+      margin-top: 10px;
+    }
+  }
+  
+  /* Footer Styles */
+  app-footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  @media (max-width: 768px) {
+    .post-card {
+      margin-bottom: 20px;
+    }
+  
+    .search-bar input {
+      font-size: 1rem;
+    }
+  }
+  

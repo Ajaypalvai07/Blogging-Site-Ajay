@@ -1,0 +1,373 @@
+{
+  "users": [
+    {
+      "id": "a5a1",
+      "email": "ajaynaidu18239@gmail.com",
+      "password": "Ajay@216",
+      "name": "Ajay"
+    },
+    {
+      "id": "84ae",
+      "email": "vijay23@gmail.com",
+      "password": "Vijay@123",
+      "name": "Vijay"
+    },
+    {
+      "id": "939e",
+      "email": "vasu@314gmail.com",
+      "password": "Vasu@123"
+    },
+    {
+      "id": "2b4b",
+      "email": "vasu@314gmail.com",
+      "password": "Vasu@123"
+    },
+    {
+      "id": "0c98",
+      "email": "xyz@gmail.com",
+      "password": "5555555555",
+      "name": "Vasudev"
+    },
+    {
+      "id": "49b2",
+      "email": "ajay@07",
+      "password": "jsahsahhgja"
+    },
+    {
+      "id": "7b95",
+      "email": "vasu@314gmail.com",
+      "password": "Vasu@213"
+    },
+    {
+      "id": "545a",
+      "email": "ajaynaidu18239@gmail.com",
+      "password": "Ajay@12345"
+    },
+    {
+      "id": "b8bb",
+      "email": "vijay23@gmail.com",
+      "password": "ssgwwwww"
+    }
+  ],
+  "blogs": [
+    {
+      "id": "073d",
+      "title": "The Impact of Social Media on Mental Health",
+      "content": "Social media has revolutionized the way we communicate and connect with others, but it also has a profound impact on mental health. While platforms like Facebook, Instagram, and Twitter allow users to share their lives and stay in touch with friends and family, they can also lead to feelings of inadequacy and anxiety. Constant comparison to others, particularly in the case of idealized images or lifestyles, can negatively affect self-esteem. Additionally, excessive social media use has been linked to symptoms of depression and loneliness, especially when users feel disconnected from real-world interactions. On the flip side, social media can also provide support networks for individuals dealing with mental health challenges, fostering a sense of belonging and understanding. It’s important for individuals to be mindful of their social media use and recognize when it is affecting their mental well-being. Setting boundaries and taking regular breaks can help maintain a healthy relationship with these platforms.",
+      "category": "Mental Health, Social Media",
+      "featured": false,
+      "private": false,
+      "image": "https://www.wscubetech.com/blog/wp-content/uploads/2024/04/social-media-1024x683.webp",
+      "date": "2024-12-01T13:13:48.614Z",
+      "likes": 0,
+      "author": "vijay23@gmail.com",
+      "comments": [],
+      "unlike": 1,
+      "love": 0,
+      "sad": 0,
+      "haha": 0,
+      "informative": 0
+    },
+    {
+      "id": "5e3b",
+      "title": "The Rise of E-Commerce and Online Shopping",
+      "content": "The rise of e-commerce has dramatically changed the retail landscape, with more consumers turning to online shopping for convenience, variety, and competitive pricing. E-commerce platforms like Amazon, eBay, and Alibaba have transformed how we purchase goods, allowing us to shop from the comfort of our homes with just a few clicks. One of the main advantages of online shopping is the ability to compare prices, read reviews, and access a wider range of products than in traditional brick-and-mortar stores. Additionally, e-commerce has provided opportunities for small businesses to reach a global audience, allowing them to thrive in a competitive market. However, challenges such as cybersecurity, fraud prevention, and the environmental impact of packaging and shipping need to be addressed as e-commerce continues to grow. Despite these challenges, the future of online shopping is bright, with advancements in technology such as AI and augmented reality further enhancing the consumer experience.",
+      "category": "Business, E-Commerce",
+      "featured": true,
+      "private": false,
+      "image": "https://img.freepik.com/free-photo/shop-online-internet-shopping-store-concept_53876-125430.jpg?semt=ais_hybrid",
+      "date": "2024-12-01T13:17:09.702Z",
+      "likes": 0,
+      "author": "vijay23@gmail.com",
+      "comments": [
+        {
+          "user": "ajaynaidu18239@gmail.com",
+          "content": "hi",
+          "date": "2024-12-02T07:01:22.221Z"
+        },
+        {
+          "user": "ajaynaidu18239@gmail.com",
+          "content": "AAJY",
+          "date": "2024-12-20T12:02:02.753Z"
+        },
+        {
+          "user": "ajaynaidu18239@gmail.com",
+          "content": "JH",
+          "date": "2024-12-20T12:02:08.705Z"
+        },
+        {
+          "user": "ajaynaidu18239@gmail.com",
+          "content": "ajay",
+          "date": "2024-12-22T11:19:13.508Z"
+        },
+        {
+          "user": "ajaynaidu18239@gmail.com",
+          "content": "sdghgsd",
+          "date": "2024-12-24T05:37:55.727Z"
+        }
+      ],
+      "sad": 0,
+      "love": 0,
+      "unlike": 7,
+      "haha": 0,
+      "informative": 0,
+      "reactions": {
+        "like": 0,
+        "love": 1,
+        "sad": 0,
+        "haha": 0,
+        "informative": 0
+      },
+      "userReaction": "love"
+    },
+    {
+      "id": "c266",
+      "title": "sbhs",
+      "content": "bhshsv",
+      "category": "bsjbhsh",
+      "featured": false,
+      "private": false,
+      "image": "https://www.shutterstock.com/image-photo/abstract-digital-background-ai-letters-600nw-2499111213.jpg",
+      "date": "2024-12-01T14:34:22.073Z",
+      "likes": 0,
+      "author": "vijay23@gmail.com",
+      "comments": [],
+      "unlike": 2,
+      "love": 0,
+      "sad": 0,
+      "haha": 0,
+      "informative": 0,
+      "reactions": {
+        "like": 0,
+        "love": 0,
+        "sad": 0,
+        "haha": 0,
+        "informative": 1
+      },
+      "userReaction": "informative"
+    },
+    {
+      "id": "4002",
+      "title": "hi",
+      "content": "bsbhdh",
+      "category": "bshbdh",
+      "featured": true,
+      "private": false,
+      "image": "https://www.shutterstock.com/shutterstock/photos/2505156727/display_1500/stock-photo-rockets-on-fire-against-the-backdrop-of-the-russian-flag-on-a-cracked-concrete-wall-war-russian-2505156727.jpg",
+      "date": "2024-12-02T06:49:40.563Z",
+      "likes": 1,
+      "author": "vasu@314gmail.com",
+      "comments": [
+        {
+          "user": "ajaynaidu18239@gmail.com",
+          "content": "heloo",
+          "date": "2024-12-20T08:18:53.373Z"
+        },
+        {
+          "user": "ajaynaidu18239@gmail.com",
+          "content": "hey",
+          "date": "2024-12-20T08:19:13.001Z"
+        },
+        {
+          "user": "ajaynaidu18239@gmail.com",
+          "content": "hey",
+          "date": "2024-12-20T08:20:45.852Z"
+        },
+        {
+          "user": "ajaynaidu18239@gmail.com",
+          "content": "gg",
+          "date": "2024-12-20T08:20:52.481Z"
+        }
+      ],
+      "unlike": 4,
+      "love": 0,
+      "sad": 0,
+      "haha": 0,
+      "informative": 0,
+      "reactions": {
+        "like": 0,
+        "love": 1,
+        "sad": 0,
+        "haha": 0,
+        "informative": 0
+      },
+      "userReaction": "love"
+    },
+    {
+      "id": "88d5",
+      "title": "dbjbsa",
+      "content": "hhsdb",
+      "category": "dhhdb",
+      "featured": true,
+      "private": false,
+      "image": "https://www.wscubetech.com/blog/wp-content/uploads/2024/04/social-media-1024x683.webp",
+      "date": "2024-12-02T06:53:09.397Z",
+      "likes": 0,
+      "author": "vijay23@gmail.com",
+      "comments": [],
+      "unlike": 1,
+      "love": 0,
+      "sad": 0,
+      "haha": 0,
+      "informative": 0
+    },
+    {
+      "id": "5d33",
+      "title": "Private",
+      "content": "Prvt",
+      "category": "pvt",
+      "featured": false,
+      "private": true,
+      "image": "https://www.shutterstock.com/image-photo/abstract-digital-background-ai-letters-600nw-2499111213.jpg",
+      "date": "2024-12-02T06:53:26.895Z",
+      "likes": 1,
+      "author": "vijay23@gmail.com",
+      "comments": [],
+      "unlike": 0,
+      "love": 0,
+      "sad": 0,
+      "haha": 0,
+      "informative": 0
+    },
+    {
+      "id": "6b55",
+      "title": "private work?",
+      "content": "private is working",
+      "category": "pvt",
+      "featured": false,
+      "private": true,
+      "image": "https://www.wscubetech.com/blog/wp-content/uploads/2024/04/social-media-1024x683.webp",
+      "date": "2024-12-02T06:58:03.738Z",
+      "likes": 0,
+      "author": "vijay23@gmail.com",
+      "comments": [],
+      "unlike": 1,
+      "love": 0,
+      "sad": 0,
+      "haha": 0,
+      "informative": 0,
+      "reactions": {
+        "like": 0,
+        "love": 0,
+        "sad": 1,
+        "haha": 0,
+        "informative": 0
+      },
+      "userReaction": "sad"
+    },
+    {
+      "id": "1369",
+      "title": "hasdgg",
+      "content": "helo",
+      "category": "sdbhdbs",
+      "featured": true,
+      "private": false,
+      "image": "https://plus.unsplash.com/premium_photo-1661808783954-8079b10583fd?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8dHJhdmVsJTIwYmxvZ3xlbnwwfHwwfHx8MA%3D%3D",
+      "date": "2024-12-02T06:59:04.245Z",
+      "likes": 1,
+      "author": "ajaynaidu18239@gmail.com",
+      "comments": [
+        {
+          "user": "ajaynaidu18239@gmail.com",
+          "content": "hey",
+          "date": "2024-12-10T08:24:05.544Z"
+        }
+      ],
+      "unlike": 2,
+      "love": 0,
+      "sad": 0,
+      "haha": 0,
+      "informative": 0,
+      "reactions": {
+        "like": 0,
+        "love": 0,
+        "sad": 0,
+        "haha": 0,
+        "informative": 1
+      },
+      "userReaction": "informative"
+    },
+    {
+      "id": "3e54",
+      "title": "Travel Blogas",
+      "content": "shvdghsgsdhsdsgdgsghjkshgdhdgsghdvghsvfghdfhbdhfbdhdhfsg",
+      "category": "so",
+      "featured": true,
+      "private": false,
+      "image": "https://www.wscubetech.com/blog/wp-content/uploads/2024/04/social-media-1024x683.webp",
+      "date": "2024-12-02T07:03:34.539Z",
+      "likes": 0,
+      "author": "ajaynaidu18239@gmail.com",
+      "comments": [],
+      "unlike": 1,
+      "love": 0,
+      "sad": 0,
+      "haha": 0,
+      "informative": 0
+    },
+    {
+      "id": "a515",
+      "title": "Nature Lover",
+      "content": "Nature is most Important thing in our life.",
+      "category": "Nature",
+      "featured": true,
+      "private": false,
+      "image": "https://i.pinimg.com/originals/a4/96/c2/a496c2b6bc5d7cfe0e0674f6598c38ad.jpg",
+      "date": "2024-12-02T11:38:33.348Z",
+      "likes": 1,
+      "author": "xyz@gmail.com",
+      "comments": [
+        {
+          "user": "xyz@gmail.com",
+          "content": "nyc content",
+          "date": "2024-12-02T11:40:25.375Z"
+        }
+      ],
+      "unlike": 1,
+      "love": 0,
+      "sad": 0,
+      "haha": 0,
+      "informative": 0,
+      "reactions": {
+        "like": 0,
+        "love": 0,
+        "sad": 0,
+        "haha": 0,
+        "informative": 1
+      },
+      "userReaction": "informative"
+    },
+    {
+      "id": "e9db",
+      "title": "hey how are you guys i hebgdhd",
+      "content": "A paragraph is a group of sentences that are related to a single topic and are used to organize long pieces of writing. Paragraphs are a conventional way to organize writing and are not required by the orthographic conventions of any language. \nHere are some tips for writing paragraphs:\nTopic sentence: The first sentence of a paragraph that introduces the topic. It can be placed anywhere in the paragraph, but it's best to put it near the beginning to help the reader understand the topic. \nSupporting sentences: Provide details to support the topic sentence. \nConcluding sentence: The last sentence of the paragraph that wraps up the idea and ties back to the topic sentence. \nSome different types of paragraphs include:\nDescriptive: A detailed account of a specific topic \nExpository: Uses data, statistics, or citations from other sources to present facts and build up to a conclusion \nWhile some educators may say that a paragraph should be 100 to 200 words long, or be no more than five or six sentences, the true measure of a paragraph is the ideas it contains. In academic writing, most paragraphs include at least three sentences, but rarely more than ten. ",
+      "category": "Social Media",
+      "featured": false,
+      "private": false,
+      "image": "https://i.pinimg.com/originals/a4/96/c2/a496c2b6bc5d7cfe0e0674f6598c38ad.jpg",
+      "date": "2024-12-20T08:11:34.711Z",
+      "likes": 1,
+      "author": "ajaynaidu18239@gmail.com",
+      "comments": [
+        {
+          "user": "ajaynaidu18239@gmail.com",
+          "content": "hjgs",
+          "date": "2024-12-20T08:14:32.561Z"
+        }
+      ],
+      "reactions": {
+        "like": 1,
+        "love": 0,
+        "sad": 0,
+        "haha": 0,
+        "informative": 0
+      },
+      "userReaction": "like",
+      "unlike": 1,
+      "love": 0,
+      "sad": 0,
+      "haha": 0,
+      "informative": 0
+    }
+  ]
+}

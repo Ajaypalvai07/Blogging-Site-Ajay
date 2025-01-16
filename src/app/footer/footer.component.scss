@@ -1,0 +1,49 @@
+/* General Page Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;  /* Ensure body takes full viewport height */
+    margin: 0;
+    padding: 0;
+  }
+  
+  main {
+    flex: 1; /* Makes the main content fill the remaining space */
+  }
+  
+  /* Footer Styling */
+  .footer {
+    background-color: #2c3e50;  /* Dark background for footer */
+    color: white;
+    padding: 20px 0;
+    margin-top: auto;  /* Ensures footer is pushed to the bottom */
+  }
+  
+  .footer .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .footer p {
+    margin: 5px 0;
+  }
+  
+  .footer a {
+    color: #feb47b; /* Light orange color for links */
+    text-decoration: none;
+  }
+  
+  .footer a:hover {
+    text-decoration: underline;
+  }
+  
+  .social-links {
+    margin-top: 10px;
+  }
+  
+  .social-icon {
+    color: #feb47b;
+    margin: 0 10px;
+  }
+  

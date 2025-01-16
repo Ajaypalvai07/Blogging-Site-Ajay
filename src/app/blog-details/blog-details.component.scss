@@ -1,0 +1,77 @@
+.blog-details-container {
+    text-align: center;
+    margin: 20px;
+  
+    .author {
+      color: #555;
+      font-size: 1rem;
+    }
+  
+    .content {
+      margin: 20px 0;
+      line-height: 1.6;
+    }
+  
+    .actions {
+      margin-bottom: 20px;
+      button {
+        padding: 10px;
+        margin: 5px;
+        background-color: #007bff;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+  
+      button:hover {
+        background-color: #0056b3;
+      }
+    }
+  
+    .comments-section {
+      margin-top: 30px;
+      h3 {
+        font-size: 1.5rem;
+        margin-bottom: 10px;
+      }
+  
+      .comment {
+        padding: 10px;
+        margin: 10px 0;
+        background-color: #f1f1f1;
+        border-radius: 5px;
+        text-align: left;
+        p {
+          margin: 5px 0;
+        }
+      }
+  
+      textarea {
+        width: 100%;
+        padding: 10px;
+        margin: 10px 0;
+        border-radius: 5px;
+        border: 1px solid #ddd;
+      }
+  
+      button {
+        padding: 10px;
+        background-color: #007bff;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+  
+      button:hover {
+        background-color: #0056b3;
+      }
+  
+      em {
+        font-style: italic;
+        color: gray;
+      }
+    }
+  }
+  
